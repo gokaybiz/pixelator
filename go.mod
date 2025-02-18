@@ -1,4 +1,4 @@
-module github.com/gokaybiz/degrador
+module github.com/gokaybiz/pixelator
 
 go 1.23.5
 

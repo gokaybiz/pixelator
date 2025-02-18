@@ -1,6 +1,6 @@
 package effect
 
-import "math"
+import "github.com/gokaybiz/pixelator/internal/util"
 
 // Calculate reduction ratio, pixelation size, and noise level dynamically
 func Compute(dim Dimensions) ImageEffect {
@@ -8,7 +8,7 @@ func Compute(dim Dimensions) ImageEffect {
 	maxEffect := ImageEffect{0.44, 45, 85}
 
 	minDim, maxDim := 1000.0, 3000.0
-	currentDim := float64(math.Max(float64(dim.X), float64(dim.Y)))
+	currentDim := float64(util.Max(dim.X, dim.Y))
 
 	if currentDim <= minDim {
 		return minEffect
