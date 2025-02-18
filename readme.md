@@ -1,5 +1,6 @@
+# Pixelify Your High-Res Images
 
-pixelator is a fun and experimental project that intentionally degrades an image over several cycles.
+Pixelator is a fun and experimental project that intentionally degrades an image over several cycles.
 Imagine your pristine image suffering through repeated JPEG compression and a bit of intentional randomization until it transforms into an abstract artwork. (pixel arts may be?)
 
 ## Features
@@ -16,7 +17,19 @@ Imagine your pristine image suffering through repeated JPEG compression and a bi
 
 ## Usage
 
+{{REWRITTEN_CODE}}
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/gokaybiz/pixelator.git
-   cd pixelator```
+  ```bash
+    git clone https://github.com/gokaybiz/pixelator.git
+    cd pixelator
+  ```
+2. Run the application directly or build it:
+  For direct execution, use:
+  ```bash
+    go run cmd/main.go
+  ```
+  To build the executable, run:
+  ```bash
+    go build -o pixelator ./cmd/main.go
+    ./pixelator
+  ```
