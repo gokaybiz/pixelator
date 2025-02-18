@@ -1,4 +1,7 @@
 # Pixelify Your High-Res Images
+Original                   |       Pixelated
+:-------------------------:|:-------------------------:
+<img src="./.readme/mark-harpur-K2s_YE031CA-unsplash.jpg" height="638" width="426"/>      |     <img src="./.readme/mark-harpur-K2s_YE031CA-unsplash_pixelated.jpg" height="638" width="426"/>
 
 Pixelator is a fun and experimental project that intentionally degrades an image over several cycles.
 Imagine your pristine image suffering through repeated JPEG compression and a bit of intentional randomization until it transforms into an abstract artwork. (pixel arts may be?)
@@ -17,7 +20,6 @@ Imagine your pristine image suffering through repeated JPEG compression and a bi
 
 ## Usage
 
-{{REWRITTEN_CODE}}
 1. Clone the repository:
   ```bash
     git clone https://github.com/gokaybiz/pixelator.git

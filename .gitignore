@@ -21,3 +21,4 @@ go.work.sum
 
 # potential unwanted image files
 *.jpg
+!.readme/*.jpg
