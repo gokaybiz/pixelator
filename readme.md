@@ -35,3 +35,9 @@ Imagine your pristine image suffering through repeated JPEG compression and a bi
     go build -o pixelator ./cmd/main.go
     ./pixelator
   ```
+
+## Contributing
+Feel free to submit pull requests or report issues.
+
+## License
+This project is licensed under the GPL-3.0-or-later License.
